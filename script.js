@@ -53,4 +53,5 @@ function descriptografarTexto(texto) {
 function copyboard(element) {
     let texto = document.querySelector(element).innerHTML
     navigator.clipboard.writeText(texto)
+    alert("Texto copiado para a área de transferência")
 }
